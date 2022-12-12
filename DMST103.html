@@ -16,6 +16,15 @@ tw-story {
   color: #20639b;
   font-family: "Mukta", serif;
 }
+
+.imagecontainer2 {
+  width: 100%;
+  display: grid;
+  align-items: start;
+  justify-content: stretch;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
 </style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="week1" tags="" position="1200,50" size="100,100">Welcome to your final semester at University of Rochester! 
 What do you want to do for this week?
 (7 weeks left before the exam)
@@ -24,6 +33,9 @@ What do you want to do for this week?
 [[Play Video Games|Game]]
 [[Hang Out With Friends| Friends1]]
 [[Research for Internship Opportunities|InternshipOpp]]
+
+&lt;img src=&quot;https://github.com/Yufei-Li/UniLifeSimulation/blob/main/images/ur.png?raw=true&quot;\ height=&quot;250px&quot; width=&quot;250px&quot;&gt;
+
 {
 (set:$intern to false)
 (set:$microsoft to false)
@@ -75,7 +87,13 @@ Microsoft Corporation is an American multinational technology corporation produc
 Pac-Man, originally called Puck Man in Japan, is a 1980 maze action video game developed and released by Namco for arcades.
 
 [[Next|PacmanLesson2]] </tw-passagedata><tw-passagedata pid="12" name=" Friends3" tags="" position="1400,1075" size="100,100">You visited museum and saw some great artworks!
-&lt;img src=&quot;https://github.com/Yufei-Li/UniLifeSimulation/blob/main/images/museum.png?raw=true&quot;\ height=&quot;250px&quot; width=&quot;250px&quot;&gt;
+&lt;div class=&quot;imagecontainer2&quot;&gt;
+  &lt;img src=&quot;https://github.com/Yufei-Li/UniLifeSimulation/blob/main/images/museum.png?raw=true&quot;\ height=&quot;250px&quot; width=&quot;250px&quot;&gt;
+&lt;img src=&quot;https://github.com/Yufei-Li/UniLifeSimulation/blob/main/images/museum2.png?raw=true&quot;\ height=&quot;250px&quot; width=&quot;250px&quot;&gt;
+&lt;img src=&quot;https://github.com/Yufei-Li/UniLifeSimulation/blob/main/images/museum3.png?raw=true&quot;\ height=&quot;250px&quot; width=&quot;250px&quot;&gt;
+&lt;/div&gt;
+
+
 [[continue| week4]]</tw-passagedata><tw-passagedata pid="13" name="PacmanLesson2" tags="" position="1075,1200" size="100,100">At the start of each game, 4 ghosts chase Pac-Man. If Pac-Man is caught by a ghost, he will lose a life; the game ends when all lives are lost.
 
 [[Week 4 | week4]]</tw-passagedata><tw-passagedata pid="14" name=" week4" tags="" position="1250,1325" size="100,100">What do you want to do for this week?
@@ -201,13 +219,18 @@ Balance: Your inner ear contains semicircular canals filled with fluid and hair-
 [[Persuading the monster to give up attacking|lose2]]</tw-passagedata><tw-passagedata pid="39" name="gameNext" tags="" position="350,350" size="100,100">It&#39;s your turn!
 
 [[Attack |Attack1]]</tw-passagedata><tw-passagedata pid="40" name="Attack1" tags="" position="600,375" size="100,100">You win! 
+&lt;img src=&quot;https://github.com/Yufei-Li/UniLifeSimulation/blob/main/images/IMG_0369.jpg?raw=true&quot;\ height=&quot;250px&quot; width=&quot;760px&quot;&gt;
 [[Week 2 |week2]]</tw-passagedata><tw-passagedata pid="41" name="lose1" tags="" position="225,150" size="100,100">Persuading the monster failed!
 You died
+&lt;img src=&quot;https://github.com/Yufei-Li/UniLifeSimulation/blob/main/images/IMG_0370.jpg?raw=true&quot;\ height=&quot;250px&quot; width=&quot;760px&quot;&gt;
+
 [[continue|week2]]</tw-passagedata><tw-passagedata pid="42" name="gameNext2" tags="" position="575,800" size="100,100">It&#39;s your turn!
 
 [[Attack|Attack2]]</tw-passagedata><tw-passagedata pid="43" name="lose2" tags="" position="450,650" size="100,100">Persuading the monster failed!
 You died
+&lt;img src=&quot;https://github.com/Yufei-Li/UniLifeSimulation/blob/main/images/IMG_0370.jpg?raw=true&quot;\ height=&quot;250px&quot; width=&quot;760px&quot;&gt;
 [[continue| week3]]</tw-passagedata><tw-passagedata pid="44" name="Attack2" tags="" position="575,925" size="100,100">You win! 
+&lt;img src=&quot;https://github.com/Yufei-Li/UniLifeSimulation/blob/main/images/IMG_0369.jpg?raw=true&quot;\ height=&quot;250px&quot; width=&quot;760px&quot;&gt;
 [[Week 3 | week3]]</tw-passagedata><tw-passagedata pid="45" name="Game4" tags="" position="700,1450" size="100,100">Monster is attacking you!!
 
 [[Dodge|gameNext4]] 
@@ -228,27 +251,37 @@ You died
 
 [[Attack|Attack3]]</tw-passagedata><tw-passagedata pid="50" name="lose3" tags="" position="875,1250" size="100,100">Persuading the monster failed!
 You died
+&lt;img src=&quot;https://github.com/Yufei-Li/UniLifeSimulation/blob/main/images/IMG_0370.jpg?raw=true&quot;\ height=&quot;250px&quot; width=&quot;760px&quot;&gt;
 [[continue| week4]]</tw-passagedata><tw-passagedata pid="51" name="gameNext4" tags="" position="1375,1575" size="100,100">It&#39;s your turn!
 
 [[Attack4]]</tw-passagedata><tw-passagedata pid="52" name="lose4" tags="" position="1525,1600" size="100,100">Persuading the monster failed!
 You died
+&lt;img src=&quot;https://github.com/Yufei-Li/UniLifeSimulation/blob/main/images/IMG_0370.jpg?raw=true&quot;\ height=&quot;250px&quot; width=&quot;760px&quot;&gt;
 [[continue| week5]]</tw-passagedata><tw-passagedata pid="53" name="gameNext5" tags="" position="1375,1925" size="100,100">It&#39;s your turn!
 
 [[Attack|Attack5]]</tw-passagedata><tw-passagedata pid="54" name="lose5" tags="" position="1500,1925" size="100,100">Persuading the monster failed!
 You died
+&lt;img src=&quot;https://github.com/Yufei-Li/UniLifeSimulation/blob/main/images/IMG_0370.jpg?raw=true&quot;\ height=&quot;250px&quot; width=&quot;760px&quot;&gt;
 [[continue| week6]]</tw-passagedata><tw-passagedata pid="55" name="gameNext6" tags="" position="1400,2300" size="100,100">It&#39;s your turn!
 
 [[Attack|Attack6]]</tw-passagedata><tw-passagedata pid="56" name="lose6" tags="" position="1525,2300" size="100,100">Persuading the monster failed!
 You died
+&lt;img src=&quot;https://github.com/Yufei-Li/UniLifeSimulation/blob/main/images/IMG_0370.jpg?raw=true&quot;\ height=&quot;250px&quot; width=&quot;760px&quot;&gt;
 [[continue| week6]]</tw-passagedata><tw-passagedata pid="57" name="gameNext7" tags="" position="1400,2675" size="100,100">It&#39;s your turn!
 
 [[Attack|Attack7]]</tw-passagedata><tw-passagedata pid="58" name="lose7" tags="" position="1525,2675" size="100,100">Persuading the monster failed!
 You died
+&lt;img src=&quot;https://github.com/Yufei-Li/UniLifeSimulation/blob/main/images/IMG_0370.jpg?raw=true&quot;\ height=&quot;250px&quot; width=&quot;760px&quot;&gt;
 [[continue| Review for Final Exam]]</tw-passagedata><tw-passagedata pid="59" name="Attack7" tags="" position="1525,2800" size="100,100">You win! 
+&lt;img src=&quot;https://github.com/Yufei-Li/UniLifeSimulation/blob/main/images/IMG_0369.jpg?raw=true&quot;\ height=&quot;250px&quot; width=&quot;760px&quot;&gt;
 [[ Review for Final Exam]]</tw-passagedata><tw-passagedata pid="60" name="Attack5" tags="" position="1500,2050" size="100,100">You win! 
+&lt;img src=&quot;https://github.com/Yufei-Li/UniLifeSimulation/blob/main/images/IMG_0369.jpg?raw=true&quot;\ height=&quot;250px&quot; width=&quot;760px&quot;&gt;
 [[Week 6| week6]]</tw-passagedata><tw-passagedata pid="61" name="Attack4" tags="" position="1375,1700" size="100,100">You win! 
+&lt;img src=&quot;https://github.com/Yufei-Li/UniLifeSimulation/blob/main/images/IMG_0369.jpg?raw=true&quot;\ height=&quot;250px&quot; width=&quot;760px&quot;&gt;
 [[Week 5 | week5]]</tw-passagedata><tw-passagedata pid="62" name="Attack3" tags="" position="875,1375" size="100,100">You win! 
+&lt;img src=&quot;https://github.com/Yufei-Li/UniLifeSimulation/blob/main/images/IMG_0369.jpg?raw=true&quot;\ height=&quot;250px&quot; width=&quot;760px&quot;&gt;
 [[Week 4 | week4]]</tw-passagedata><tw-passagedata pid="63" name="Attack6" tags="" position="1400,2425" size="100,100">You win! 
+&lt;img src=&quot;https://github.com/Yufei-Li/UniLifeSimulation/blob/main/images/IMG_0369.jpg?raw=true&quot;\ height=&quot;250px&quot; width=&quot;760px&quot;&gt;
 [[Week 7 |week7]]</tw-passagedata><tw-passagedata pid="64" name="InternshipOpp2" tags="" position="1675,575" size="100,100">You send your resume to 10 target companies.
 (set: $event to (random: 1, 6))
 (if: $event is 6)[And get an internship offer! Congratulation! (set:$intern to true)]
